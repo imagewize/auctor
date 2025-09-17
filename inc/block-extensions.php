@@ -41,7 +41,7 @@ function moiraine_enqueue_block_extensions() {
         'wp.domReady(function() {
             wp.hooks.addFilter(
                 "blocks.registerBlockType",
-                "thaiconomics/post-excerpt-attributes",
+                "auctor/post-excerpt-attributes",
                 function(settings, name) {
                     if (name !== "core/post-excerpt") {
                         return settings;

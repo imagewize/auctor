@@ -9,7 +9,7 @@
     // Add custom attribute to post-excerpt block
     addFilter(
         'blocks.registerBlockType',
-        'thaiconomics/post-excerpt-link',
+        'auctor/post-excerpt-link',
         function(settings, name) {
             if (name !== 'core/post-excerpt') {
                 return settings;
@@ -61,14 +61,14 @@
 
     addFilter(
         'editor.BlockEdit',
-        'thaiconomics/post-excerpt-link',
+        'auctor/post-excerpt-link',
         withInspectorControls
     );
 
     // Add custom rendering for the frontend
     addFilter(
         'blocks.getSaveElement',
-        'thaiconomics/post-excerpt-link',
+        'auctor/post-excerpt-link',
         function(element, blockType, attributes) {
             if (blockType.name !== 'core/post-excerpt' || !attributes.linkToPost) {
                 return element;
@@ -83,7 +83,7 @@
     // Make sure the linkToPost attribute is available to PHP
     addFilter(
         'blocks.getSaveContent.extraProps',
-        'thaiconomics/post-excerpt-link',
+        'auctor/post-excerpt-link',
         function(extraProps, blockType, attributes) {
             if (blockType.name === 'core/post-excerpt' && attributes.linkToPost) {
                 extraProps['data-link-to-post'] = 'true';
