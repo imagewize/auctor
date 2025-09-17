@@ -39,7 +39,7 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"id":3024,"sizeSlug":"full","linkDestination":"none","align":"wide","className":"is-style-default","style":{"color":{"duotone":["#462CFF","#ECE8FF"]}}} -->
+<!-- wp:image {"id":3024,"sizeSlug":"full","linkDestination":"none","align":"wide","className":"is-style-default","style":{"color":{"duotone":["#5344F4","#DDDAFB"]}}} -->
 <figure class="wp-block-image alignwide size-full is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/desktop.webp" alt="" class="wp-image-3024"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div></div>
