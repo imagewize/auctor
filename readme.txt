@@ -4,7 +4,7 @@ Tags: blog, publishing, editorial, writers, magazines, newspapers, grid-layout, 
 Requires at least: 6.0
 Tested up to: 6.7.1
 Requires PHP: 7.3
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,6 +15,22 @@ Auctor is a modern WordPress block theme designed specifically for editors, publ
 Auctor features carefully crafted typefaces, optimized reading experiences, and specialized patterns for article layouts, making it the perfect choice for magazines, newspapers, blogs, and any publication-focused website. The theme includes 70+ block patterns, 5 style variations, and comprehensive full site editing support.
 
 == Changelog ==
+
+= 1.1.2 - 09/17/25 =
+* Fixed branding consistency by removing remaining Thaiconomics and Moiraine references from JavaScript files
+* Updated assets/js/block-extensions/post-excerpt.js to use 'auctor' text domain and filter names
+* Updated assets/js/custom-blocks.js to use 'auctor' filter namespace instead of 'thaiconomics'
+* Updated inc/block-extensions.php to use 'auctor' filter namespace
+* All JavaScript filter hooks now use consistent 'auctor' namespace
+* Completes the rebranding effort for all theme components
+
+= 1.1.1 - 09/17/25 =
+* Enhanced index template with comprehensive block patterns showcase
+* Added hero section, testimonials, feature boxes, and statistics sections
+* Created comprehensive theme showcase documentation in docs/BLOCKS-DISPLAY.md
+* Updated duotone color schemes across multiple patterns for better brand consistency
+* Transformed index template from simple blog listing to full theme demonstration
+* All pattern additions maintain responsive design principles
 
 = 1.1.0 - 09/17/25 =
 * Added comprehensive theme documentation for users and developers
