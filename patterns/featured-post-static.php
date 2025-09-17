@@ -11,11 +11,11 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Featured Article Section"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide has-tertiary-background-color has-background" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large)">
     <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} -->
     <div class="wp-block-columns alignwide">
-        <!-- wp:column {"width":"40%"} -->
+        <!-- wp:column {"metadata":{"name":"Featured Image"},"width":"40%"} -->
         <div class="wp-block-column" style="flex-basis:40%">
             <!-- wp:image {"width":"388px","height":"525px","scale":"cover","sizeSlug":"featured-vertical","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
             <figure class="wp-block-image size-featured-vertical is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/publishing-on-the-wall.webp" alt="Featured article about digital publishing evolution" style="border-radius:5px;object-fit:cover;width:388px;height:525px"/></figure>
@@ -31,7 +31,7 @@
         </div>
         <!-- /wp:column -->
 
-        <!-- wp:column {"width":"60%","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
+        <!-- wp:column {"metadata":{"name":"Article Content"},"width":"60%","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
         <div class="wp-block-column" style="flex-basis:60%">
             <!-- wp:paragraph {"fontSize":"large","fontFamily":"open-sans"} -->
             <p class="has-open-sans-font-family has-large-font-size">Modern publishing has transformed with digital platforms and content management systems. Publishers now have unprecedented control over content presentation and reader experience.</p>

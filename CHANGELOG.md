@@ -5,6 +5,54 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2025-09-17
+
+### Added
+- **Enhanced Pattern Registration**: Added automatic registration for patterns containing dynamic PHP code
+  - New `register_block_patterns()` function in `functions.php` ensures patterns with `get_template_directory_uri()` execute properly
+  - Supports patterns that require PHP execution for dynamic image paths and content
+  - Maintains compatibility with WordPress 6.0+ auto-registration for static patterns
+
+- **Foundational CSS System**: Introduced modular CSS architecture for better maintainability
+  - Added `css/base.css` for foundational styles that other stylesheets can build upon
+  - Updated CSS enqueuing hierarchy to load base styles before block-specific styles
+  - Improved separation of concerns between foundational and component-specific styling
+
+- **Enhanced Block Editor Experience**: Improved editor usability and pattern organization
+  - Added descriptive metadata names to all pattern group blocks for better editor sidebar navigation
+  - Patterns now show meaningful names like "Blog Posts Grid" instead of generic "Group" labels
+  - Improved content editor workflow with clearer block identification
+
+### Changed
+- **Pattern Layout Architecture**: Implemented consistent layout structure across all patterns
+  - All patterns now use group wrapper with `"layout":{"type":"constrained"}` for consistent containment
+  - Removed `"align":"wide"` from inner blocks to prevent layout overflow issues
+  - Improved responsive behavior and predictable pattern insertion experience
+
+- **Blog Pattern Enhancements**: Updated blog and post patterns for better responsive design
+  - Changed grid layout from fixed `30rem` to flexible `20rem` minimum column width
+  - Updated `blog-posts-static.php` with improved responsive grid behavior
+  - Enhanced `post-loop-grid-tc.php` with better containment and spacing
+  - Improved `post-single-featured.php` with consistent layout structure
+
+- **Pattern Visibility**: Made dynamic patterns available in editor inserter
+  - Changed `post-loop-grid-tc` and `post-single-featured` from `Inserter: false` to `Inserter: true`
+  - Patterns are now accessible to content editors for manual insertion
+  - Provides more flexibility for custom page layouts and content organization
+
+### Enhanced
+- **Documentation Expansion**: Comprehensive developer guidance in CLAUDE.md
+  - Added detailed pattern registration workflow documentation
+  - Included layout structure best practices and implementation guidelines
+  - Enhanced block metadata naming conventions for improved editor experience
+  - Added technical notes on WordPress 6.0+ pattern registration behavior
+
+### Technical Details
+- Block editor assets now properly handled through dedicated enqueue functions
+- Pattern registration system supports full range of WordPress pattern properties
+- CSS dependency chain ensures proper loading order for foundational and component styles
+- All changes maintain backward compatibility with existing theme installations
+
 ## [1.1.2] - 2025-09-17
 
 ### Fixed
