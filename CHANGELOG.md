@@ -5,6 +5,38 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2025-09-17
+
+### Added
+- **Enhanced Index Template**: Expanded `templates/index.html` with comprehensive block patterns showcase
+  - Added hero section with call-to-action buttons for immediate visual impact
+  - Added testimonial and image columns section for social proof and content balance
+  - Added feature boxes section to highlight key theme capabilities
+  - Added statistics section with numbered achievements for credibility
+  - Added testimonials section with big text for trust building
+
+- **Documentation Enhancement**: Created comprehensive theme showcase documentation
+  - Added `docs/BLOCKS-DISPLAY.md` with detailed content block recommendations
+  - Provides implementation guidance for transforming simple blog template into full theme showcase
+  - Includes design considerations, content strategy, and technical implementation notes
+
+### Changed
+- **Pattern Color Updates**: Updated duotone color schemes across multiple patterns
+  - Changed from `#462CFF, #ECE8FF` to `#5344F4, #DDDAFB` for better brand consistency
+  - Updated colors in: hero patterns, image/text layouts, lead magnets, and feature sections
+  - Maintains visual harmony across all pattern implementations
+
+- **Index Template Structure**: Transformed from simple blog listing to comprehensive theme demonstration
+  - Now showcases multiple content types and layouts
+  - Demonstrates theme's versatility for publishers and content creators
+  - Maintains existing blog functionality while adding promotional content
+
+### Technical Details
+- All pattern additions maintain responsive design principles
+- Color scheme updates ensure consistent brand identity across patterns
+- Documentation follows WordPress.org block theme best practices
+- Enhanced user experience for theme evaluation and demonstration
+
 ## [1.1.0] - 2025-09-17
 
 ### Added
