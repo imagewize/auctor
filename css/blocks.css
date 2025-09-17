@@ -1,0 +1,36 @@
+/* Block-specific styles for Auctor theme
+---------------------------------------------------------------------------- */
+
+/* TC Post Grid Responsive Layout */
+.tc-post-grid .wp-block-post-template.is-layout-grid {
+    display: grid;
+    gap: var(--wp--preset--spacing--large);
+}
+
+/* Responsive grid overrides for TC Post Grid */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .tc-post-grid .wp-block-post-template.is-layout-grid,
+    .tc-post-grid [class*="wp-container-core-post-template-is-layout"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .tc-post-grid .wp-block-post-template.is-layout-grid,
+    .tc-post-grid [class*="wp-container-core-post-template-is-layout"] {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Additional block enhancements */
+.tc-post-grid .wp-block-post-template > li {
+    margin: 0;
+}
+
+.tc-post-grid .wp-block-post-featured-image {
+    margin-bottom: var(--wp--preset--spacing--small);
+}
+
+.tc-post-grid .wp-block-post-title {
+    margin-bottom: var(--wp--preset--spacing--small);
+}

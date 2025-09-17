@@ -1,0 +1,79 @@
+# Auctor — A WordPress Block Theme for Publishers
+
+Auctor is a modern WordPress block theme designed specifically for editors, publishers, and writers. With beautiful typography, elegant spacing, and specialized blocks for publishing articles with photography, Auctor provides everything you need to create stunning editorial content using WordPress's built-in block editor.
+
+Auctor features carefully crafted typefaces, optimized reading experiences, and specialized patterns for article layouts, making it the perfect choice for magazines, newspapers, blogs, and any publication-focused website.
+
+## Based on Moiraine and Thaiconomics
+
+Auctor is based on a merger of the [Moiraine theme](https://github.com/imagewize/moiraine) and [Thaiconomics theme](https://github.com/imagewize/thaiconomics), combining the best features of both themes and evolving from there. We would like to express our gratitude to the creators of these excellent foundations for WordPress block themes.
+
+## Table of Contents
+
+- [Getting Started with Auctor](#getting-started-with-auctor)
+- [Working with Block Themes](#working-with-block-themes)
+  - [Site Editor](#site-editor)
+  - [Patterns](#patterns)
+  - [Global Styles](#global-styles)
+  - [Template Parts](#template-parts)
+  - [Export Your Site](#export-your-site)
+- [Developer Notes](#developer-notes)
+- [License](#license)
+
+## Getting Started with Auctor
+
+Auctor is built for modern WordPress features and requires WordPress 6.0 or later. To get started, install the theme into your WordPress website by going to `Appearance → Themes → Add New`.
+
+## Working with Block Themes
+
+Once you activate Auctor, it will largely behave like any other traditional WordPress theme. You can create posts and pages just like you always have. However, as a block theme, Auctor also supports powerful new features like the site editor, patterns, global styles, and more. 
+
+A block theme is a WordPress theme with templates entirely composed of blocks so that in addition to post and page content, the block editor can also be used to edit all areas of the site — headers, footers, templates, and more.
+
+### Site Editor
+
+The WordPress site editor is the new way to build beautiful websites with WordPress. Using blocks, patterns, and a full suite of drag-and-drop design tools, you can build pages right inside WordPress without an extra page builder.
+
+To edit your site via the site editor, go to `Appearance → Editor`. Here, you can create and edit templates, create menus, customize your website styles, color palette, typography, block styles, and much more. This interface is where you'll design and build your site before exporting it later.
+
+### Patterns
+
+Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor.
+
+You can access Auctor's patterns via the block inserter on posts, pages, or in the site editor. 
+
+#### Creating page designs with patterns
+
+To create beautiful pages, simply insert Auctor's full-page patterns onto any page, and apply the No Page Title template via the editor sidebar. This template removes the default page title, which better accommodates the full-page patterns, so make sure you have an H1 in your design for SEO best practices.
+
+### Global Styles
+
+Global styles is the user interface in the Site Editor where you can modify all the styles associated with your site. This could be typography, fonts, button colors, link colors, layout defaults, and more. 
+
+Global styles is powered by a `theme.json` in the root of the theme folder. This configuration file lets you define site-wide and block-specific styles to be used by the global styles interface.
+
+### Template Parts
+
+A template part is a part of your site that appears across most or all pages. The most common template parts are for the header, footer, and sidebar of a website. Template parts let you easily make global changes to the design or markup of global site elements.
+
+### Export Your Site
+
+Once you've finished building and customizing your site with the site editor, you can export a zip to install on another site. While in the site editor, go to the Options menu (upper right hand corner), and select Export under the Tools heading. WordPress will write all of your changes to a theme zip file.
+
+## Developer Notes
+
+The Auctor theme works out of the box, so no build steps are required. However, we have included a Composer file that is used for linting to PHP and WordPress core standards.
+
+### Linting
+
+- `composer run lint`
+- `composer run wpcs:scan`
+- `composer run wpcs:fix`
+
+## Credits
+
+- Favicon: We used the [ladybug icon](https://blade-ui-kit.com/blade-icons/mdi-ladybug) from Blade UI Kit for our favicon.
+
+## License
+
+Auctor is licensed under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html).
