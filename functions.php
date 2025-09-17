@@ -34,6 +34,14 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
  */
 function enqueue_style_sheet() {
 	wp_enqueue_style( sanitize_title( __NAMESPACE__ ), get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+
+	// Enqueue block-specific styles
+	wp_enqueue_style(
+		sanitize_title( __NAMESPACE__ ) . '-blocks',
+		get_template_directory_uri() . '/css/blocks.css',
+		array(),
+		wp_get_theme()->get( 'Version' )
+	);
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_style_sheet' );
 
@@ -238,6 +246,14 @@ function enqueue_block_editor_assets() {
 		array('wp-blocks', 'wp-element', 'wp-block-editor', 'wp-components', 'wp-compose', 'wp-hooks'),
 		filemtime(get_template_directory() . '/assets/js/custom-blocks.js'),
 		true
+	);
+
+	// Enqueue block styles for the editor
+	wp_enqueue_style(
+		'auctor-editor-blocks',
+		get_template_directory_uri() . '/css/blocks.css',
+		array(),
+		wp_get_theme()->get( 'Version' )
 	);
 }
 add_action('enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets');

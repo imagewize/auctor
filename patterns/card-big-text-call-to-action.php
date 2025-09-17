@@ -14,21 +14,21 @@
 <!-- wp:cover {"overlayColor":"main","isUserOverlayColor":true,"minHeightUnit":"px","contentPosition":"center center","className":"is-style-default","style":{"color":{"duotone":"unset"},"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-cover is-style-default" style="padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><span aria-hidden="true" class="wp-block-cover__background has-main-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"metadata":{"name":"Text"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Explore Moiraine</p>
+<p class="has-main-accent-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Explore Auctor</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base","fontSize":"medium"} -->
-<p class="has-text-align-left has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Design your site without code</p>
+<p class="has-text-align-left has-base-color has-text-color has-medium-font-size" style="font-style:normal;font-weight:600">Publish your stories with style</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"main-accent"} -->
-<p class="has-text-align-left has-main-accent-color has-text-color" style="font-style:normal;font-weight:400">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Moiraine block theme. No coding skills required.</p>
+<p class="has-text-align-left has-main-accent-color has-text-color" style="font-style:normal;font-weight:400">Create engaging publications with the WordPress Site Editor and the Auctor publishing theme. Perfect for writers and editorial teams.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-button-light"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-light"><a class="wp-block-button__link wp-element-button" href="https://imagewize.com/moiraine">Get Started Today</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-button-light"><a class="wp-block-button__link wp-element-button" href="https://imagewize.com/auctor">Start Writing</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover -->

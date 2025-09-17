@@ -13,7 +13,7 @@
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonial"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","right":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"},"blockGap":"var:preset|spacing|large"}},"backgroundColor":"main","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-main-background-color has-background" style="padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--x-large)"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.3"}},"textColor":"base","fontSize":"large"} -->
-<p class="has-base-color has-text-color has-large-font-size" style="line-height:1.3">Wow, I really can't believe how powerful the WordPress Site Editor is combined with Moiraine. I don't even need a page builder!</p>
+<p class="has-base-color has-text-color has-large-font-size" style="line-height:1.3">Auctor has transformed how I create and publish content. The publishing-focused layouts make my articles look professional without any design work!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"secondary"} -->
@@ -31,7 +31,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size">Product Designer</p>
+<p class="has-main-accent-color has-text-color has-small-font-size">Magazine Editor</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

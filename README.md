@@ -73,6 +73,10 @@ The Auctor theme works out of the box, so no build steps are required. However, 
 ## Credits
 
 - Favicon: We used the [ladybug icon](https://blade-ui-kit.com/blade-icons/mdi-ladybug) from Blade UI Kit for our favicon.
+- Photo by <a href="https://unsplash.com/@profwicks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ben Wicks</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-book-shelf-rKyV2xZDbDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@91magazine?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">91 Magazine</a> on <a href="https://unsplash.com/photos/books-near-apple-macbook-near-wall-jW3Yfk2XRT0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@arifriyanto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Arif Riyanto</a> on <a href="https://unsplash.com/photos/woman-standing-on-bookstore-UD9nADGj2mc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@kovah?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kevin Woblick</a> on <a href="https://unsplash.com/photos/a-number-of-books-on-a-table-with-people-in-the-background-NgPdyZFV29w?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 ## License
 

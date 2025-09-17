@@ -53,7 +53,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Your website deserves to look pixel-perfect on every device. Moiraine ensures your entire design scales down gracefully automagically.</p>
+<p>Your website deserves to look pixel-perfect on every device. Auctor ensures your entire design scales down gracefully automagically.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -71,7 +71,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We obsess over performance so you don’t have to. Moiraine is super lightweight and scores top marks on Google PageSpeed Insights.</p>
+<p>We obsess over performance so you don’t have to. Auctor is super lightweight and scores top marks on Google PageSpeed Insights.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
