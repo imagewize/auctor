@@ -11,12 +11,12 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":"30rem"}} -->
+<!-- wp:group {"metadata":{"name":"Blog Posts Grid"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"grid","minimumColumnWidth":"20rem"}} -->
 <div class="wp-block-group alignwide tc-post-grid">
-    <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"0","right":"0","bottom":"var:preset|spacing|large","left":"0"}},"border":{"radius":"5px"}},"backgroundColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
+    <!-- wp:group {"metadata":{"name":"Digital Publishing Post"},"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"0","right":"0","bottom":"var:preset|spacing|large","left":"0"}},"border":{"radius":"5px"}},"backgroundColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
     <div class="wp-block-group has-base-background-color has-background" style="border-radius:5px;padding-top:0;padding-right:0;padding-bottom:var(--wp--preset--spacing--large);padding-left:0">
-        <!-- wp:image {"width":"388px","height":"525px","scale":"cover","sizeSlug":"featured-vertical","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
-        <figure class="wp-block-image size-featured-vertical is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/digital-publishing.webp" alt="Digital publishing workspace with modern tools" style="border-radius:5px;object-fit:cover;width:388px;height:525px"/></figure>
+        <!-- wp:image {"scale":"cover","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
+        <figure class="wp-block-image has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/digital-publishing.webp" alt="Digital publishing workspace with modern tools" style="border-radius:5px;object-fit:cover"/></figure>
         <!-- /wp:image -->
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"1.5rem"},"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"center"}} -->
@@ -37,10 +37,10 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"0","right":"0","bottom":"var:preset|spacing|large","left":"0"}},"border":{"radius":"5px"}},"backgroundColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
+    <!-- wp:group {"metadata":{"name":"Editorial Design Post"},"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"0","right":"0","bottom":"var:preset|spacing|large","left":"0"}},"border":{"radius":"5px"}},"backgroundColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
     <div class="wp-block-group has-base-background-color has-background" style="border-radius:5px;padding-top:0;padding-right:0;padding-bottom:var(--wp--preset--spacing--large);padding-left:0">
-        <!-- wp:image {"width":"388px","height":"525px","scale":"cover","sizeSlug":"featured-vertical","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
-        <figure class="wp-block-image size-featured-vertical is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/library.webp" alt="Editorial design and typography workflow" style="border-radius:5px;object-fit:cover;width:388px;height:525px"/></figure>
+        <!-- wp:image {"scale":"cover","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
+        <figure class="wp-block-image has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/library.webp" alt="Editorial design and typography workflow" style="border-radius:5px;object-fit:cover"/></figure>
         <!-- /wp:image -->
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"1.5rem"},"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"center"}} -->
@@ -61,10 +61,10 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"0","right":"0","bottom":"var:preset|spacing|large","left":"0"}},"border":{"radius":"5px"}},"backgroundColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
+    <!-- wp:group {"metadata":{"name":"Writer Platform Post"},"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"0","right":"0","bottom":"var:preset|spacing|large","left":"0"}},"border":{"radius":"5px"}},"backgroundColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
     <div class="wp-block-group has-base-background-color has-background" style="border-radius:5px;padding-top:0;padding-right:0;padding-bottom:var(--wp--preset--spacing--large);padding-left:0">
-        <!-- wp:image {"width":"388px","height":"525px","scale":"cover","sizeSlug":"featured-vertical","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
-        <figure class="wp-block-image size-featured-vertical is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/skyscrapers.webp" alt="Writer creating content with modern publishing platform" style="border-radius:5px;object-fit:cover;width:388px;height:525px"/></figure>
+        <!-- wp:image {"scale":"cover","linkDestination":"none","style":{"border":{"radius":"5px"}}} -->
+        <figure class="wp-block-image has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/patterns/images/skyscrapers.webp" alt="Writer creating content with modern publishing platform" style="border-radius:5px;object-fit:cover"/></figure>
         <!-- /wp:image -->
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"1.5rem"},"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"center"}} -->

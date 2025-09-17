@@ -35,11 +35,19 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\setup' );
 function enqueue_style_sheet() {
 	wp_enqueue_style( sanitize_title( __NAMESPACE__ ), get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 
+	// Enqueue foundational base styles
+	wp_enqueue_style(
+		sanitize_title( __NAMESPACE__ ) . '-base',
+		get_template_directory_uri() . '/css/base.css',
+		array(),
+		wp_get_theme()->get( 'Version' )
+	);
+
 	// Enqueue block-specific styles
 	wp_enqueue_style(
 		sanitize_title( __NAMESPACE__ ) . '-blocks',
 		get_template_directory_uri() . '/css/blocks.css',
-		array(),
+		array( sanitize_title( __NAMESPACE__ ) . '-base' ),
 		wp_get_theme()->get( 'Version' )
 	);
 }
@@ -178,6 +186,88 @@ add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
 
 
 /**
+ * Register block patterns.
+ *
+ * Patterns in /patterns/ directory auto-register in WordPress 6.0+, but patterns
+ * containing PHP code (like get_template_directory_uri() for dynamic image paths)
+ * require manual registration to ensure the PHP is executed properly.
+ */
+function register_block_patterns() {
+	$pattern_files = array(
+		'post-loop-grid-tc',
+		'post-single-featured',
+	);
+
+	foreach ( $pattern_files as $pattern_file ) {
+		$pattern_path = get_template_directory() . '/patterns/' . $pattern_file . '.php';
+
+		if ( file_exists( $pattern_path ) ) {
+			// Get pattern content
+			ob_start();
+			include $pattern_path;
+			$pattern_content = ob_get_clean();
+
+			// Extract pattern metadata from the content
+			$pattern_data = get_file_data( $pattern_path, array(
+				'title'       => 'Title',
+				'slug'        => 'Slug',
+				'description' => 'Description',
+				'categories'  => 'Categories',
+				'keywords'    => 'Keywords',
+				'viewportWidth' => 'Viewport Width',
+				'blockTypes'  => 'Block Types',
+				'postTypes'   => 'Post Types',
+				'inserter'    => 'Inserter',
+			) );
+
+			// Register the pattern if it has required data
+			if ( ! empty( $pattern_data['title'] ) && ! empty( $pattern_data['slug'] ) ) {
+				$pattern_properties = array(
+					'title'   => $pattern_data['title'],
+					'content' => $pattern_content,
+				);
+
+				if ( ! empty( $pattern_data['description'] ) ) {
+					$pattern_properties['description'] = $pattern_data['description'];
+				}
+
+				if ( ! empty( $pattern_data['categories'] ) ) {
+					$pattern_properties['categories'] = explode( ',', $pattern_data['categories'] );
+					$pattern_properties['categories'] = array_map( 'trim', $pattern_properties['categories'] );
+				}
+
+				if ( ! empty( $pattern_data['keywords'] ) ) {
+					$pattern_properties['keywords'] = explode( ',', $pattern_data['keywords'] );
+					$pattern_properties['keywords'] = array_map( 'trim', $pattern_properties['keywords'] );
+				}
+
+				if ( ! empty( $pattern_data['viewportWidth'] ) ) {
+					$pattern_properties['viewportWidth'] = (int) $pattern_data['viewportWidth'];
+				}
+
+				if ( ! empty( $pattern_data['blockTypes'] ) ) {
+					$pattern_properties['blockTypes'] = explode( ',', $pattern_data['blockTypes'] );
+					$pattern_properties['blockTypes'] = array_map( 'trim', $pattern_properties['blockTypes'] );
+				}
+
+				if ( ! empty( $pattern_data['postTypes'] ) ) {
+					$pattern_properties['postTypes'] = explode( ',', $pattern_data['postTypes'] );
+					$pattern_properties['postTypes'] = array_map( 'trim', $pattern_properties['postTypes'] );
+				}
+
+				if ( ! empty( $pattern_data['inserter'] ) && 'false' === strtolower( trim( $pattern_data['inserter'] ) ) ) {
+					$pattern_properties['inserter'] = false;
+				}
+
+				register_block_pattern( $pattern_data['slug'], $pattern_properties );
+			}
+		}
+	}
+}
+add_action( 'init', __NAMESPACE__ . '\register_block_patterns' );
+
+
+/**
  * Remove last separator on blog/archive if no pagination exists.
  */
 function is_paginated() {
@@ -248,13 +338,7 @@ function enqueue_block_editor_assets() {
 		true
 	);
 
-	// Enqueue block styles for the editor
-	wp_enqueue_style(
-		'auctor-editor-blocks',
-		get_template_directory_uri() . '/css/blocks.css',
-		array(),
-		wp_get_theme()->get( 'Version' )
-	);
+	// Block styles are handled by wp_enqueue_block_style in enqueue_custom_block_styles function
 }
 add_action('enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets');
 

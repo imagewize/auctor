@@ -111,3 +111,29 @@ Patterns are PHP files that return block markup. Each pattern includes:
 - Support for theme-specific styling and layouts
 
 To create new patterns, follow the existing pattern structure in `/patterns/` directory.
+
+### Pattern Registration
+
+While WordPress 6.0+ auto-registers patterns in `/patterns/` directory, patterns containing PHP code (like `get_template_directory_uri()` for dynamic image paths) require manual registration in `functions.php` to ensure proper PHP execution. The theme includes a `register_block_patterns()` function for this purpose.
+
+### Pattern Layout Structure
+
+For consistent layout behavior, all patterns should be wrapped in a group block with `"layout":{"type":"constrained"}`. This prevents full-width overflow issues and provides:
+- Consistent spacing and padding control
+- Proper containment for `alignwide` query blocks
+- Background color and border support
+- Predictable layout behavior when patterns are inserted
+
+**Important**: When wrapping patterns in group blocks, remove `"align":"wide"` from inner query, post-template, and other blocks to prevent them from breaking out of the group's constraints. The group wrapper should control the overall layout containment, not the inner blocks.
+
+Without group wrappers, query blocks with `alignwide` will expand to full content width rather than staying boxed.
+
+### Block Metadata Names
+
+To improve editor usability, all group blocks should include descriptive metadata names using `"metadata":{"name":"Block Name"}`. This makes blocks show with meaningful names in the WordPress editor sidebar instead of generic "Group" labels:
+
+```php
+<!-- wp:group {"metadata":{"name":"Blog Posts Grid"},"align":"wide"} -->
+```
+
+This helps content editors identify and work with specific blocks more easily in the editor interface.

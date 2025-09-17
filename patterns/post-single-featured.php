@@ -8,16 +8,18 @@
  * Viewport Width: 1280
  * Block Types: core/query
  * Post Types:
- * Inserter: false
+ * Inserter: true
  */
 ?>
-<!-- wp:query {"queryId":2,"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{"tagIds":[],"post_tag":[6]},"tax":{"post_tag":[{"id":6,"name":"featured"}]}},"align":"wide","className":"featured-post-query"} -->
-<div class="wp-block-query alignwide featured-post-query">
-    <!-- wp:post-template {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+<!-- wp:query {"queryId":2,"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{"tagIds":[],"post_tag":[6]},"tax":{"post_tag":[{"id":6,"name":"featured"}]}},"className":"featured-post-query"} -->
+<div class="wp-block-query featured-post-query">
+    <!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"default"}} -->
         <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
         <div class="wp-block-group has-tertiary-background-color has-background" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large)">
-            <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} -->
-            <div class="wp-block-columns alignwide">
+            <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} -->
+            <div class="wp-block-columns">
                 <!-- wp:column {"width":"40%"} -->
                 <div class="wp-block-column" style="flex-basis:40%">
                     <!-- wp:post-featured-image {"isLink":true,"size":"featured-vertical","style":{"border":{"radius":"5px"}}} /-->
@@ -40,3 +42,5 @@
     <!-- /wp:post-template -->
 </div>
 <!-- /wp:query -->
+</div>
+<!-- /wp:group -->

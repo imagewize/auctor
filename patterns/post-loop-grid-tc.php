@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Post Loop Grid Thaiconomics
+ * Title: Post Loop Grid Dynamic
  * Slug: auctor/post-loop-grid-tc
  * Description: This post loop grid is best used on index and archive pages where the loop can inherit the query from the page.
  * Categories: auctor/posts
@@ -8,12 +8,14 @@
  * Viewport Width: 1280
  * Block Types: core/query
  * Post Types:
- * Inserter: false
+ * Inserter: true
  */
 ?>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"tertiary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-tertiary-background-color has-background" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large)">
 <!-- wp:query {"queryId":1,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide"} -->
 <div class="wp-block-query alignwide tc-post-grid">
-    <!-- wp:post-template {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":"30rem"}} -->
+    <!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":"20rem"}} -->
         <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"0","right":"0","bottom":"var:preset|spacing|large","left":"0"}},"border":{"radius":"5px"}},"backgroundColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
         <div class="wp-block-group has-base-background-color has-background" style="border-radius:5px;padding-top:0;padding-right:0;padding-bottom:var(--wp--preset--spacing--large);padding-left:0">
             <!-- wp:post-featured-image {"isLink":true,"style":{"border":{"radius":"5px"}}} /-->
@@ -33,9 +35,11 @@
         <!-- /wp:group -->
     <!-- /wp:post-template -->
 
-    <!-- wp:query-pagination {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
+    <!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
         <!-- wp:query-pagination-previous /-->
         <!-- wp:query-pagination-next /-->
     <!-- /wp:query-pagination -->
 </div>
 <!-- /wp:query -->
+</div>
+<!-- /wp:group -->
