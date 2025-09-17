@@ -5,6 +5,19 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.2] - 2025-09-17
+
+### Fixed
+- **Branding consistency**: Removed remaining Thaiconomics and Moiraine references from JavaScript files
+  - Updated `assets/js/block-extensions/post-excerpt.js`: Changed text domain and filter names from 'moiraine' to 'auctor'
+  - Updated `assets/js/custom-blocks.js`: Changed filter namespace from 'thaiconomics' to 'auctor'
+  - Updated `inc/block-extensions.php`: Changed filter namespace from 'thaiconomics' to 'auctor'
+
+### Technical Details
+- All JavaScript filter hooks now use consistent 'auctor' namespace
+- Block extension translations properly reference 'auctor' text domain
+- Completes the rebranding effort for all theme components
+
 ## [1.1.1] - 2025-09-17
 
 ### Added
