@@ -49,14 +49,14 @@
                     createElement(
                         PanelBody,
                         {
-                            title: __('Link Settings', 'moiraine'),
+                            title: __('Link Settings', 'auctor'),
                             initialOpen: false,
                             className: "moiraine-excerpt-link-settings"
                         },
                         createElement(
                             ToggleControl,
                             {
-                                label: __('Link excerpt to post', 'moiraine'),
+                                label: __('Link excerpt to post', 'auctor'),
                                 checked: !!linkToPost,
                                 onChange: function() {
                                     setAttributes({ linkToPost: !linkToPost });
@@ -66,7 +66,7 @@
                         linkToPost && createElement(
                             ToggleControl,
                             {
-                                label: __('Underline link', 'moiraine'),
+                                label: __('Underline link', 'auctor'),
                                 checked: !!underlineLink,
                                 onChange: function() {
                                     setAttributes({ underlineLink: !underlineLink });
@@ -108,19 +108,19 @@
     // Register our filters
     addFilter(
         'blocks.registerBlockType',
-        'moiraine/post-excerpt-link-attributes',
+        'auctor/post-excerpt-link-attributes',
         addAttributes
     );
 
     addFilter(
         'editor.BlockEdit',
-        'moiraine/post-excerpt-link-controls',
+        'auctor/post-excerpt-link-controls',
         withInspectorControls
     );
 
     addFilter(
         'editor.BlockListBlock',
-        'moiraine/post-excerpt-link-class',
+        'auctor/post-excerpt-link-class',
         withCustomClassName
     );
 })(window.wp);
