@@ -19,7 +19,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Easily create beautiful, blazing-fast websites with the new WordPress Site Editor. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></h2>
+<h2 class="wp-block-heading">Create compelling publications and editorial content with the WordPress Site Editor. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">Perfect for writers and publishers.</mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"main-accent"} -->
@@ -32,7 +32,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">“Working with Moiraine has been a delight from start to finish.”</p>
+<p style="font-style:normal;font-weight:600">“Publishing with Auctor has streamlined our entire editorial workflow.”</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"secondary","fontSize":"x-small"} -->
@@ -44,7 +44,7 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"metadata":{"name":"Testimonial"},"className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default has-border-color has-border-light-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph -->
-<p>I love using WordPress but traditionally it has been hard to design in. Not any more! Now, I can quickly build full page designs with beautiful patterns!</p>
+<p>I write for multiple publications and Auctor makes each one look unique and professional. The editorial layouts are perfect for long-form content!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Cite"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -62,7 +62,7 @@
 
 <!-- wp:group {"metadata":{"name":"Testimonial"},"className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default has-border-color has-border-light-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph -->
-<p>I create a lot of landing pages, and the Site Editor and Moiraine have been a game changer for this. Choose a layout, add my content, hit publish.</p>
+<p>I publish weekly articles and Auctor has been a game changer. Choose a layout, add my story, hit publish. My readers love the clean design.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Cite"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

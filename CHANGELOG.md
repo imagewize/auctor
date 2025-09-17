@@ -5,6 +5,45 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-09-17
+
+### Added
+- **Documentation Suite**: Created comprehensive theme documentation for users and developers
+  - Added `docs/QUICK-START.md` with detailed block theme demo content strategy
+  - Added `docs/SETUP-GUIDE.md` with step-by-step setup instructions for new installations
+  - Documentation covers WordPress.org compliant approaches and user workflows
+
+- **Static Content Patterns**: Created publishing-focused static content to solve empty post grid issues
+  - Added `patterns/blog-posts-static.php` with editorial industry sample content
+  - Features publishing-focused article titles and professional imagery
+  - Ensures immediate professional demo on fresh WordPress installations
+
+- **Enhanced Block Styles**: Improved CSS loading and block editor integration
+  - Added block-specific CSS enqueuing in both frontend and editor
+  - Enhanced functions.php with proper block styles loading
+  - Improved editor experience with consistent styling
+
+### Changed
+- **Header Template**: Updated to use hamburger menu pattern for better mobile experience
+  - Changed from `header-light-action-button` to `header-light-with-hamburger-menu`
+  - Improves navigation accessibility and mobile usability
+
+- **Pattern Content Updates**: Publishing industry focus across multiple patterns
+  - Updated call-to-action patterns to reflect editorial use cases
+  - Changed "Explore Moiraine" to "Explore Auctor" in CTA patterns
+  - Replaced generic business messaging with publishing-specific content
+
+- **Image Attribution**: Added proper Unsplash photo credits to README.md
+  - Ben Wicks bookshelf photography credit
+  - 91 Magazine workspace photography credit
+  - Arif Riyanto bookstore photography credit
+
+### Technical Details
+- Block styles now properly enqueue in both frontend and editor contexts
+- Static patterns ensure no empty content sections on fresh installations
+- Documentation follows WordPress.org block theme best practices
+- All changes maintain translation readiness and accessibility standards
+
 ## [1.0.3] - 2025-09-17
 
 ### Changed

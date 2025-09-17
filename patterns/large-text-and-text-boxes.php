@@ -18,7 +18,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.3"}},"fontSize":"large"} -->
-<p class="has-large-font-size" style="font-style:normal;font-weight:600;line-height:1.3">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Moiraine block theme. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></p>
+<p class="has-large-font-size" style="font-style:normal;font-weight:600;line-height:1.3">Easily create compelling publications and editorial content with the new WordPress Site Editor and the Auctor block theme. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -56,7 +56,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Your website deserves to look pixel-perfect on every device. Moiraine ensures your entire design scales down gracefully automagically.</p>
+<p class="has-small-font-size">Your website deserves to look pixel-perfect on every device. Auctor ensures your entire design scales down gracefully automagically.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -78,7 +78,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">We obsess over performance so you don't have to. Moiraine is super lightweight and scores top marks on Google PageSpeed Insights.</p>
+<p class="has-small-font-size">We obsess over performance so you don't have to. Auctor is super lightweight and scores top marks on Google PageSpeed Insights.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

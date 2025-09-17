@@ -23,20 +23,20 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"66.66%","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Download Moiraine</p>
+<p class="has-primary-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Download Auctor</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Start using the powerful new WordPress editor with Moiraine</p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Start publishing compelling content with Auctor</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Start creating beautiful, fully-customizable websites with the new WordPress Site Editor and the Moiraine block theme. </p>
+<p class="has-small-font-size">Create engaging publications with the WordPress Site Editor and the Auctor publishing theme. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--medium)"><!-- wp:button {"width":100,"className":"lemonsqueezy-button"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 lemonsqueezy-button"><a class="wp-block-button__link wp-element-button" href="https://imagewize.com/moiraine">Download Moiraine for free!</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 lemonsqueezy-button"><a class="wp-block-button__link wp-element-button" href="https://imagewize.com/auctor">Download Auctor for free!</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

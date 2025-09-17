@@ -22,7 +22,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with Moiraine patterns. Connect your eCommerce solution and start making bank.</p>
+<p class="has-text-align-center">Easily create beautiful and responsive pricing tables with Auctor patterns. Connect your eCommerce solution and start making bank.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

@@ -24,13 +24,13 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Moiraine ships with a growing collection of design patterns that cohesively click together. Drag, drop, mix, and match patterns to create stunning designs in just a few minutes. </p>
+<p>Auctor ships with a growing collection of design patterns that cohesively click together. Drag, drop, mix, and match patterns to create stunning designs in just a few minutes. </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">View Moiraine Patterns</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">View Auctor Patterns</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

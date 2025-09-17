@@ -22,7 +22,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Building with blocks and patterns is super easy and fun! You can design beautiful landing pages with just a few clicks.</p>
+<p class="has-text-align-center">Building with blocks and patterns is super easy and fun! You can design beautiful article layouts with just a few clicks.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -60,7 +60,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Your website deserves to look pixel-perfect on every device. Moiraine ensures your entire design scales down gracefully automagically.</p>
+<p class="has-small-font-size">Your website deserves to look pixel-perfect on every device. Auctor ensures your entire design scales down gracefully automagically.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -82,7 +82,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">We obsess over performance so you don't have to. Moiraine is super lightweight and scores top marks on Google PageSpeed Insights.</p>
+<p class="has-small-font-size">We obsess over performance so you don't have to. Auctor is super lightweight and scores top marks on Google PageSpeed Insights.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -104,7 +104,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Creating unique designs has never been easier. Moiraine's growing pattern library puts expertly designed patterns at your fingertips.</p>
+<p class="has-small-font-size">Creating unique designs has never been easier. Auctor's growing pattern library puts expertly designed patterns at your fingertips.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -148,7 +148,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Moiraine launches with built-in pattern designs, page templates, style variations and more so you can get your site launched quickly.</p>
+<p class="has-small-font-size">Auctor launches with built-in pattern designs, page templates, style variations and more so you can get your site launched quickly.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
