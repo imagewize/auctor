@@ -4,7 +4,7 @@ Tags: business, agency, portfolio, professional, corporate, creative, multipurpo
 Requires at least: 6.0
 Tested up to: 6.7.1
 Requires PHP: 7.3
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,6 +15,15 @@ Auctor is a modern WordPress block theme designed for designers, developers, and
 Auctor features carefully crafted typefaces, optimized design systems, and specialized patterns for business, agency, and portfolio layouts, making it the perfect choice for client projects, creative studios, and professional websites across all industries. The theme includes 70+ block patterns, 5 style variations, and comprehensive full site editing support.
 
 == Changelog ==
+
+= 1.4.2 - 09/18/25 =
+* Fixed pattern registration cleanup by removing unnecessary manual registration system
+* Confirmed WordPress 6.0+ auto-registration works correctly with PHP functions in patterns
+* Removed entire register_block_patterns() function from functions.php (70+ lines of code)
+* Fixed hardcoded local URLs in services-feature-cards.php by converting to relative paths
+* Updated CLAUDE.md and docs/PATTERNS-CLEANUP.md with confirmed auto-registration behavior
+* Simplified theme architecture by relying on WordPress core functionality instead of custom registration
+* All patterns now auto-register like OllieWP approach without manual intervention
 
 = 1.4.1 - 09/18/25 =
 * Added new Publishing style variation with editorial-focused Bitter/Lato typography and earth-tone colors

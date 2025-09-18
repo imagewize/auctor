@@ -189,87 +189,12 @@ add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
 
 
 /**
- * Register block patterns.
+ * Manual pattern registration removed.
  *
- * Patterns in /patterns/ directory auto-register in WordPress 6.0+, but patterns
- * containing PHP code (like get_template_directory_uri() for dynamic image paths)
- * require manual registration to ensure the PHP is executed properly.
+ * WordPress 6.0+ auto-registration works correctly with PHP functions
+ * (like get_template_directory_uri() and esc_attr_e()) as confirmed by testing
+ * and OllieWP's approach. All patterns now auto-register from /patterns/ directory.
  */
-function register_block_patterns() {
-	$pattern_files = array(
-		'benefits-list',
-		'post-loop-grid-tc',
-		'post-single-featured',
-		'services-feature-cards',
-	);
-
-	foreach ( $pattern_files as $pattern_file ) {
-		$pattern_path = get_template_directory() . '/patterns/' . $pattern_file . '.php';
-
-		if ( file_exists( $pattern_path ) ) {
-			// Get pattern content
-			ob_start();
-			include $pattern_path;
-			$pattern_content = ob_get_clean();
-
-			// Extract pattern metadata from the content
-			$pattern_data = get_file_data( $pattern_path, array(
-				'title'       => 'Title',
-				'slug'        => 'Slug',
-				'description' => 'Description',
-				'categories'  => 'Categories',
-				'keywords'    => 'Keywords',
-				'viewportWidth' => 'Viewport Width',
-				'blockTypes'  => 'Block Types',
-				'postTypes'   => 'Post Types',
-				'inserter'    => 'Inserter',
-			) );
-
-			// Register the pattern if it has required data
-			if ( ! empty( $pattern_data['title'] ) && ! empty( $pattern_data['slug'] ) ) {
-				$pattern_properties = array(
-					'title'   => $pattern_data['title'],
-					'content' => $pattern_content,
-				);
-
-				if ( ! empty( $pattern_data['description'] ) ) {
-					$pattern_properties['description'] = $pattern_data['description'];
-				}
-
-				if ( ! empty( $pattern_data['categories'] ) ) {
-					$pattern_properties['categories'] = explode( ',', $pattern_data['categories'] );
-					$pattern_properties['categories'] = array_map( 'trim', $pattern_properties['categories'] );
-				}
-
-				if ( ! empty( $pattern_data['keywords'] ) ) {
-					$pattern_properties['keywords'] = explode( ',', $pattern_data['keywords'] );
-					$pattern_properties['keywords'] = array_map( 'trim', $pattern_properties['keywords'] );
-				}
-
-				if ( ! empty( $pattern_data['viewportWidth'] ) ) {
-					$pattern_properties['viewportWidth'] = (int) $pattern_data['viewportWidth'];
-				}
-
-				if ( ! empty( $pattern_data['blockTypes'] ) ) {
-					$pattern_properties['blockTypes'] = explode( ',', $pattern_data['blockTypes'] );
-					$pattern_properties['blockTypes'] = array_map( 'trim', $pattern_properties['blockTypes'] );
-				}
-
-				if ( ! empty( $pattern_data['postTypes'] ) ) {
-					$pattern_properties['postTypes'] = explode( ',', $pattern_data['postTypes'] );
-					$pattern_properties['postTypes'] = array_map( 'trim', $pattern_properties['postTypes'] );
-				}
-
-				if ( ! empty( $pattern_data['inserter'] ) && 'false' === strtolower( trim( $pattern_data['inserter'] ) ) ) {
-					$pattern_properties['inserter'] = false;
-				}
-
-				register_block_pattern( $pattern_data['slug'], $pattern_properties );
-			}
-		}
-	}
-}
-add_action( 'init', __NAMESPACE__ . '\register_block_patterns' );
 
 
 /**
