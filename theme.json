@@ -461,6 +461,38 @@
 					]
 				},
 				{
+					"fontFamily": "Bitter, serif",
+					"name": "Bitter",
+					"slug": "bitter",
+					"fontFace": [
+						{
+							"fontFamily": "Bitter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/bitter-regular.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Lato, sans-serif",
+					"name": "Lato",
+					"slug": "lato",
+					"fontFace": [
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/lato-regular.woff2"
+							]
+						}
+					]
+				},
+				{
 					"fontFamily": "monospace",
 					"name": "Monospace",
 					"slug": "monospace"

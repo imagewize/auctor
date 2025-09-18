@@ -23,8 +23,8 @@
 
             <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|small"}}},"layout":{"type":"constrained"}} -->
             <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--small)">
-                <!-- wp:heading {"level":2,"className":"is-style-post-title-no-underline","fontSize":"x-large","fontFamily":"bodoni"} -->
-                <h2 class="wp-block-heading is-style-post-title-no-underline has-bodoni-font-family has-x-large-font-size">The Evolution of Editorial Design in the Digital Age</h2>
+                <!-- wp:heading {"level":2,"className":"is-style-post-title-no-underline","fontSize":"x-large"} -->
+                <h2 class="wp-block-heading is-style-post-title-no-underline has-x-large-font-size">The Evolution of Editorial Design in the Digital Age</h2>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
@@ -33,8 +33,8 @@
 
         <!-- wp:column {"metadata":{"name":"Article Content"},"width":"60%","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
         <div class="wp-block-column" style="flex-basis:60%">
-            <!-- wp:paragraph {"fontSize":"large","fontFamily":"open-sans"} -->
-            <p class="has-open-sans-font-family has-large-font-size">Modern publishing has transformed with digital platforms and content management systems. Publishers now have unprecedented control over content presentation and reader experience.</p>
+            <!-- wp:paragraph {"fontSize":"large"} -->
+            <p class="has-large-font-size">Modern publishing has transformed with digital platforms and content management systems. Publishers now have unprecedented control over content presentation and reader experience.</p>
             <!-- /wp:paragraph -->
 
             <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}}} -->

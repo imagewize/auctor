@@ -5,6 +5,43 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.1] - 2025-09-18
+
+### Added
+- **Publishing Style Variation**: New editorial-focused style variation with Bitter/Lato typography
+  - Added `styles/publishing.json` with earth-tone color palette and publishing-optimized fonts
+  - Bitter serif font for body text with enhanced readability for long-form content
+  - Lato sans-serif font for headings with clean, modern styling
+  - Earth-tone color scheme: forest green primary (#2C5F2D) with supporting accent colors
+
+- **Font Library Expansion**: Enhanced typography options for style variations
+  - Added `assets/fonts/bitter-regular.woff2` for editorial and publishing layouts
+  - Added `assets/fonts/lato-regular.woff2` for clean, readable heading typography
+  - Updated `theme.json` with new font family definitions available across all style variations
+
+### Enhanced
+- **Pattern Font Compatibility**: Improved style variation compatibility across all patterns
+  - Removed hardcoded `fontFamily` attributes from `blog-posts-static.php`, `featured-post-static.php`, `post-loop-grid-tc.php`, and `post-single-featured.php`
+  - Patterns now inherit typography from active style variation instead of forcing specific fonts
+  - Better pattern flexibility across all 6 style variations (agency, consulting, creator, startup, studio, publishing)
+
+- **Documentation Enhancement**: Comprehensive style variation development guidance
+  - Added detailed style variation best practices to `CLAUDE.md`
+  - Font management guidelines for multi-style theme development
+  - Pattern compatibility requirements for hardcoded font removal
+  - Implementation guidance for typography inheritance across style variations
+
+### Changed
+- **Attribution Simplification**: Cleaned up theme documentation for clearer presentation
+  - Simplified attribution references in `README.md` and `readme.txt`
+  - Streamlined theme description to focus on current features rather than heritage
+
+### Technical Details
+- All font additions maintain WordPress font loading standards with proper font-display optimization
+- Pattern updates ensure consistent typography behavior across all style variations
+- New publishing style follows established theme architecture and maintains backward compatibility
+- Enhanced developer documentation for creating style-variation-compatible patterns
+
 ## [1.4.0] - 2025-09-18
 
 ### Added

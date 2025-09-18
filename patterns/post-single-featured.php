@@ -25,14 +25,14 @@
                     <!-- wp:post-featured-image {"isLink":true,"size":"featured-vertical","style":{"border":{"radius":"5px"}}} /-->
                     <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|small"}}},"layout":{"type":"constrained"}} -->
                     <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--small)">
-                        <!-- wp:post-title {"isLink":true,"className":"is-style-post-title-no-underline","fontSize":"x-large","fontFamily":"bodoni"} /-->
+                        <!-- wp:post-title {"isLink":true,"className":"is-style-post-title-no-underline","fontSize":"x-large"} /-->
                     </div>
                     <!-- /wp:group -->
                 </div>
                 <!-- /wp:column -->
                 <!-- wp:column {"width":"60%","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
                 <div class="wp-block-column" style="flex-basis:60%">
-                    <!-- wp:post-excerpt {"moreText":"","showMoreOnNewLine":true,"fontSize":"large","fontFamily":"open-sans"} /-->
+                    <!-- wp:post-excerpt {"moreText":"","showMoreOnNewLine":true,"fontSize":"large"} /-->
                 </div>
                 <!-- /wp:column -->
             </div>

@@ -103,7 +103,13 @@ Custom block styles are registered for:
 
 The theme includes multiple style variations:
 - Color schemes (blue, green, pink, orange, etc.)
-- Layout styles (agency, consulting, creator, startup, studio)
+- Layout styles (agency, consulting, creator, startup, studio, publishing)
+
+**Style Variation Best Practices:**
+- Remove hardcoded `fontFamily` attributes from patterns to ensure compatibility across all style variations
+- Use semantic color references (`primary`, `base`, `tertiary`) instead of specific color values
+- Patterns should inherit typography settings from the active style variation
+- Font families defined in main `theme.json` are available to all style variations
 
 ## Theme Configuration
 
@@ -183,3 +189,42 @@ This helps content editors identify and work with specific blocks more easily in
 - Enhanced editor experience and block controls
 
 For decorative containers around images, use group blocks with proper styling instead of HTML divs.
+
+## Style Variations
+
+### How Style Variations Work
+
+Style variations in WordPress block themes operate at different levels:
+
+1. **Global Style Variations** (`/styles/agency.json`, `/styles/publishing.json`, etc.)
+   - Apply site-wide typography, colors, spacing, and element styling
+   - Override `theme.json` settings globally
+   - Do NOT change template layouts or block structure
+   - Only affect visual styling, not content or markup
+
+2. **Block Style Variations** (`/styles/blocks/button/`, etc.)
+   - Apply to individual blocks when selected in the editor
+   - Add CSS classes and styling to specific block types
+   - Work independently of global styles
+
+### Creating Compatible Patterns
+
+When creating patterns for multi-style themes:
+
+**✅ DO:**
+- Use semantic color references: `textColor="primary"`, `backgroundColor="tertiary"`
+- Remove hardcoded `fontFamily` attributes to inherit from active style
+- Use theme spacing variables: `var:preset|spacing|medium`
+- Let typography inherit from style variation settings
+
+**❌ DON'T:**
+- Hardcode specific fonts: `fontFamily="bodoni"`
+- Use absolute color values: `color="#5344F4"`
+- Override style variation typography unnecessarily
+
+### Font Management
+
+- Add fonts to main `theme.json` for global availability across all style variations
+- Style variations can reference fonts from the base theme
+- Patterns inherit typography from the active style variation's heading/body settings
+- This ensures consistent design within each style while maintaining flexibility across variations
