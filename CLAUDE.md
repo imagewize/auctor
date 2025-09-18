@@ -4,11 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Theme Architecture
 
-Auctor is a WordPress Full Site Editing (FSE) block theme designed for publishers, editors, and writers. It combines features from the Moiraine and Thaiconomics themes to create a modern publishing-focused WordPress theme.
+Auctor is a WordPress Full Site Editing (FSE) block theme designed for designers, developers, and agencies to rapidly build professional websites. It combines features from the Moiraine and Thaiconomics themes to create a versatile multi-purpose design tool.
 
 ### Core Components
 
-- **Block patterns** (`/patterns/`) - 70+ pre-designed content layouts for articles, heroes, CTAs, testimonials, etc.
+- **Block patterns** (`/patterns/`) - 70+ pre-designed content layouts for business, agency, portfolio, and general website needs
 - **Block styles** (`/styles/`) - Visual variations for core blocks organized by type (buttons, colors, etc.)
 - **Template parts** (`/parts/`) - Reusable template components (headers, footers, etc.)
 - **Templates** (`/templates/`) - Full page templates including specialized layouts like single-with-sidebar
@@ -85,11 +85,12 @@ The theme uses the following color palette defined in theme.json:
 ### Block Patterns
 
 Auctor includes extensive block patterns organized by category:
-- Article layouts with photography
+- Business and agency layouts
 - Hero sections and call-to-actions
-- Testimonials and author boxes
-- Pricing tables and cards
-- Blog post layouts and grids
+- Testimonials and team profiles
+- Pricing tables and service cards
+- Portfolio and project showcases
+- Blog and content layouts
 
 ### Block Styles
 

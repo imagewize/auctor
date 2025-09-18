@@ -23,7 +23,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color">Auctor ships with over twenty beautiful pattern designs you can use to build a stunning and powerful website. Easily drag and drop patterns to create a design and hit publish!</p>
+<p class="has-primary-accent-color has-text-color">Auctor ships with over seventy beautiful pattern designs you can use to build stunning and professional websites. Easily drag and drop patterns to create a design and hit publish!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -33,11 +33,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Auctor Templates</h3>
+<h3 class="wp-block-heading">Professional Templates</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"primary-accent"} -->
-<p class="has-primary-accent-color has-text-color">Auctor ships with over ten professionally-designed page templates (About, Profile, Download, etc.) so you can get your site off the ground in no time.</p>
+<p class="has-primary-accent-color has-text-color">Auctor ships with professionally-designed page templates for business, agency, and portfolio sites so you can get your client projects off the ground in no time.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
