@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="Moiraine Theme">
-    <description>Coding standards for Moiraine Theme</description>
+<ruleset name="Auctor Theme">
+    <description>Coding standards for Auctor Theme</description>
 
     <!-- Use WordPress standards -->
     <rule ref="WordPress" />
