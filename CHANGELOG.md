@@ -5,6 +5,45 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2025-09-18
+
+### Added
+- **New Block Patterns**: Added comprehensive benefits and services patterns for enhanced content creation
+  - Added `patterns/benefits-list-dark.php` with dark theme styling for benefit showcases
+  - Added `patterns/benefits-list-light.php` with light theme styling for benefit showcases
+  - Added `patterns/services-feature-cards.php` for professional service displays
+  - New pattern category: "Services" for service-related patterns
+
+- **Enhanced SVG Icon Library**: Expanded icon collection for improved visual communication
+  - Added `patterns/images/arrow-circle-filled-dark.svg` for dark theme arrow buttons
+  - Added `patterns/images/arrow-circle-filled.svg` for standard arrow buttons
+  - Added `patterns/images/arrow-circle.svg` for outline arrow buttons
+  - Added `patterns/images/arrow-right-small.svg` for compact navigation elements
+  - Added `patterns/images/checkmark.svg` for benefit lists and confirmations
+  - Added `patterns/images/chevron-right.svg` for directional navigation
+
+- **Extended Color Palette**: Added professional color options for enhanced design flexibility
+  - Added `dark-teal` (#1A3A47) for sophisticated dark accents
+  - Added `ocean-blue` (#0295DA) for vibrant call-to-action elements
+
+### Enhanced
+- **Pattern Registration System**: Improved automatic pattern handling for dynamic content
+  - Updated `functions.php` to register new patterns requiring PHP execution
+  - Enhanced pattern category organization for better content editor experience
+
+- **Documentation Enhancement**: Comprehensive development guidance updates
+  - Added complete color scheme documentation with all palette values
+  - Added image usage best practices for WordPress block development
+  - Enhanced guidelines for proper image block implementation vs HTML blocks
+  - Improved accessibility and SEO guidance for theme development
+
+### Technical Details
+- Pattern files now include proper metadata names for enhanced editor experience
+- All new patterns follow consistent layout structure with group wrappers
+- SVG icons optimized for web delivery and accessibility
+- Color additions maintain theme consistency and brand identity
+- Documentation follows WordPress.org block theme development standards
+
 ## [1.2.0] - 2025-09-17
 
 ### Added

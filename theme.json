@@ -200,6 +200,16 @@
 					"name": "Border Contrast",
 					"slug": "border-dark",
 					"color": "#4E4E60"
+				},
+				{
+					"name": "Dark Teal",
+					"slug": "dark-teal",
+					"color": "#1A3A47"
+				},
+				{
+					"name": "Ocean Blue",
+					"slug": "ocean-blue",
+					"color": "#0295DA"
 				}
 			],
 			"link": true

@@ -176,6 +176,9 @@ function pattern_categories() {
 		'auctor/testimonial'    => array(
 			'label' => __( 'Testimonials', 'auctor' ),
 		),
+		'auctor/services'       => array(
+			'label' => __( 'Services', 'auctor' ),
+		),
 	);
 
 	foreach ( $block_pattern_categories as $name => $properties ) {
@@ -194,8 +197,10 @@ add_action( 'init', __NAMESPACE__ . '\pattern_categories', 9 );
  */
 function register_block_patterns() {
 	$pattern_files = array(
+		'benefits-list',
 		'post-loop-grid-tc',
 		'post-single-featured',
+		'services-feature-cards',
 	);
 
 	foreach ( $pattern_files as $pattern_file ) {
