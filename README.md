@@ -69,6 +69,7 @@ The Auctor theme works out of the box, so no build steps are required. However, 
 
 ## Credits
 
+- **Theme Foundation**: Built upon the foundation of [Moiraine](https://github.com/imagewize/moiraine) and incorporates pattern design principles and templates inspired by [OllieWP](https://olliewp.com/). Special thanks to the OllieWP team for their innovative approach to WordPress block theme development and their contribution to the WordPress community.
 - Favicon: We used the [ladybug icon](https://blade-ui-kit.com/blade-icons/mdi-ladybug) from Blade UI Kit for our favicon.
 - Photo by <a href="https://unsplash.com/@profwicks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ben Wicks</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-book-shelf-rKyV2xZDbDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - Photo by <a href="https://unsplash.com/@91magazine?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">91 Magazine</a> on <a href="https://unsplash.com/photos/books-near-apple-macbook-near-wall-jW3Yfk2XRT0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

@@ -4,7 +4,7 @@ Tags: business, agency, portfolio, professional, corporate, creative, multipurpo
 Requires at least: 6.0
 Tested up to: 6.7.1
 Requires PHP: 7.3
-Stable tag: 1.4.2
+Stable tag: 1.4.4
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,6 +15,26 @@ Auctor is a modern WordPress block theme designed for designers, developers, and
 Auctor features carefully crafted typefaces, optimized design systems, and specialized patterns for business, agency, and portfolio layouts, making it the perfect choice for client projects, creative studios, and professional websites across all industries. The theme includes 70+ block patterns, 5 style variations, and comprehensive full site editing support.
 
 == Changelog ==
+
+= 1.4.4 - 09/18/25 =
+* Fixed marketing pattern header/footer conflict by removing template parts from page-marketing.php
+* Pattern now works properly when inserted into existing pages without layout conflicts
+* Removed header and footer dependencies that were causing insertion failures
+* Pattern maintains all original content sections while eliminating template part conflicts
+* Improved pattern usability for standalone insertion into any page
+
+= 1.4.3 - 09/18/25 =
+* Added comprehensive template pattern library with 15+ new template patterns for enhanced layout flexibility
+* Added template-page-* patterns: centered, full, wide, left-sidebar, right-sidebar layouts for page customization
+* Added template-post-* patterns: centered, wide, left-sidebar, right-sidebar layouts for post customization
+* Added template-index-* patterns: grid and list layouts for homepage and archive pages
+* Added template-page-404.php pattern for custom 404 error page styling
+* Added template-page-archive.php and template-page-search.php for specialized archive and search layouts
+* Added page-marketing.php pattern: complete marketing homepage with hero, features, testimonials sections
+* Simplified index.html template to use new template-index-grid pattern for cleaner architecture
+* Enhanced template organization with consistent naming conventions and proper template type assignments
+* All new template patterns include proper metadata, categories, and keywords for better editor experience
+* Template patterns follow FSE best practices with proper layout constraints and responsive design
 
 = 1.4.2 - 09/18/25 =
 * Fixed pattern registration cleanup by removing unnecessary manual registration system
