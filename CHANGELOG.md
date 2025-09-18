@@ -5,6 +5,22 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.5] - 2025-09-18
+
+### Changed
+- **Template Architecture Update**: Modernized template structure to follow Ollie's pattern-based approach
+  - Updated `templates/page.html` to reference `auctor/template-page-centered` pattern instead of hardcoded markup
+  - Updated `templates/single.html` to reference `auctor/template-post-centered` pattern instead of hardcoded markup
+  - Templates now use pattern references for cleaner architecture and better maintainability
+  - Pattern-based templates should now appear as template options in WordPress editor
+  - Follows WordPress Full Site Editing best practices with modular pattern system
+
+### Technical Details
+- Template files now act as lightweight pattern references instead of containing full markup
+- Improved template flexibility with pattern-based architecture
+- Enhanced user experience with multiple template options for pages and posts
+- Maintains backward compatibility while modernizing template structure
+
 ## [1.4.4] - 2025-09-18
 
 ### Fixed
