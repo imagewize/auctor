@@ -4,7 +4,7 @@ Tags: business, agency, portfolio, professional, corporate, creative, multipurpo
 Requires at least: 6.0
 Tested up to: 6.7.1
 Requires PHP: 7.3
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,6 +15,15 @@ Auctor is a modern WordPress block theme designed for designers, developers, and
 Auctor features carefully crafted typefaces, optimized design systems, and specialized patterns for business, agency, and portfolio layouts, making it the perfect choice for client projects, creative studios, and professional websites across all industries. The theme includes 70+ block patterns, 5 style variations, and comprehensive full site editing support.
 
 == Changelog ==
+
+= 1.4.1 - 09/18/25 =
+* Added new Publishing style variation with editorial-focused Bitter/Lato typography and earth-tone colors
+* Enhanced font library with Bitter serif for body text and Lato sans-serif for headings
+* Improved pattern compatibility by removing hardcoded fontFamily attributes from blog patterns
+* Enhanced style variation compatibility across all 6 theme styles (agency, consulting, creator, startup, studio, publishing)
+* Added comprehensive style variation development guidance to CLAUDE.md documentation
+* Simplified attribution references in theme documentation for clearer presentation
+* All patterns now inherit typography from active style variation for better design consistency
 
 = 1.4.0 - 09/18/25 =
 * Major transformation: Repositioned Auctor from publishing-focused to multi-purpose design tool
@@ -109,7 +118,6 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-Auctor is based on a merger of the Moiraine theme and Thaiconomics theme, combining the best features of both themes. We express our gratitude to the creators of these excellent foundations.
 
 All media licensed under Creative Commons Zero (CC0) https://creativecommons.org/publicdomain/zero/1.0/
 

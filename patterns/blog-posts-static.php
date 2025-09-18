@@ -21,16 +21,16 @@
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"1.5rem"},"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"center"}} -->
         <div class="wp-block-group has-secondary-color has-text-color has-link-color has-x-small-font-size" style="margin-top:1.5rem;padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
-            <!-- wp:paragraph {"fontFamily":"bodoni"} -->
-            <p class="has-bodoni-font-family">March 15, 2024</p>
+            <!-- wp:paragraph -->
+            <p>March 15, 2024</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
         <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
-            <!-- wp:heading {"level":3,"className":"is-style-post-title-no-underline","fontSize":"medium","fontFamily":"bodoni"} -->
-            <h3 class="wp-block-heading is-style-post-title-no-underline has-bodoni-font-family has-medium-font-size">The Future of Digital Publishing: WordPress Block Themes</h3>
+            <!-- wp:heading {"level":3,"className":"is-style-post-title-no-underline","fontSize":"medium"} -->
+            <h3 class="wp-block-heading is-style-post-title-no-underline has-medium-font-size">The Future of Digital Publishing: WordPress Block Themes</h3>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
@@ -45,16 +45,16 @@
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"1.5rem"},"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"center"}} -->
         <div class="wp-block-group has-secondary-color has-text-color has-link-color has-x-small-font-size" style="margin-top:1.5rem;padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
-            <!-- wp:paragraph {"fontFamily":"bodoni"} -->
-            <p class="has-bodoni-font-family">March 12, 2024</p>
+            <!-- wp:paragraph -->
+            <p>March 12, 2024</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
         <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
-            <!-- wp:heading {"level":3,"className":"is-style-post-title-no-underline","fontSize":"medium","fontFamily":"bodoni"} -->
-            <h3 class="wp-block-heading is-style-post-title-no-underline has-bodoni-font-family has-medium-font-size">Mastering Editorial Design in Modern WordPress</h3>
+            <!-- wp:heading {"level":3,"className":"is-style-post-title-no-underline","fontSize":"medium"} -->
+            <h3 class="wp-block-heading is-style-post-title-no-underline has-medium-font-size">Mastering Editorial Design in Modern WordPress</h3>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
@@ -69,16 +69,16 @@
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"1.5rem"},"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left","verticalAlignment":"center"}} -->
         <div class="wp-block-group has-secondary-color has-text-color has-link-color has-x-small-font-size" style="margin-top:1.5rem;padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
-            <!-- wp:paragraph {"fontFamily":"bodoni"} -->
-            <p class="has-bodoni-font-family">March 10, 2024</p>
+            <!-- wp:paragraph -->
+            <p>March 10, 2024</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
         <div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
-            <!-- wp:heading {"level":3,"className":"is-style-post-title-no-underline","fontSize":"medium","fontFamily":"bodoni"} -->
-            <h3 class="wp-block-heading is-style-post-title-no-underline has-bodoni-font-family has-medium-font-size">From Writer to Publisher: Building Your Platform</h3>
+            <!-- wp:heading {"level":3,"className":"is-style-post-title-no-underline","fontSize":"medium"} -->
+            <h3 class="wp-block-heading is-style-post-title-no-underline has-medium-font-size">From Writer to Publisher: Building Your Platform</h3>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->

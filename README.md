@@ -4,9 +4,6 @@ Auctor is a modern WordPress block theme designed for designers, developers, and
 
 Auctor features carefully crafted typefaces, optimized design systems, and specialized patterns for business, agency, and portfolio layouts, making it the perfect choice for client projects, creative studios, and professional websites across all industries.
 
-## Based on Moiraine and Thaiconomics
-
-Auctor is based on a merger of the [Moiraine theme](https://github.com/imagewize/moiraine) and [Thaiconomics theme](https://github.com/imagewize/thaiconomics), combining the best features of both themes and evolving from there. We would like to express our gratitude to the creators of these excellent foundations for WordPress block themes.
 
 ## Table of Contents
 
