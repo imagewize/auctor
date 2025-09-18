@@ -63,6 +63,23 @@ The theme registers custom image sizes in functions.php:
 - `featured-large`: 485x650px (cropped)
 - `featured-vertical`: 388x525px (cropped)
 
+### Color Scheme
+
+The theme uses the following color palette defined in theme.json:
+
+**Main Palette:**
+- `primary` (Brand): #5344F4
+- `primary-accent` (Brand Accent): #DDDAFB
+- `primary-alt` (Brand Alt): #DEC9FF
+- `primary-alt-accent` (Brand Alt Accent): #575094
+- `main` (Contrast): #1E1E26
+- `main-accent` (Contrast Accent): #d4d4ec
+- `base` (Base): #fff
+- `secondary` (Base Accent): #5F5F82
+- `tertiary` (Tint): #f8f7fc
+- `border-light` (Border Base): #E3E3F0
+- `border-dark` (Border Contrast): #4E4E60
+
 ## Block Theme Features
 
 ### Block Patterns
@@ -137,3 +154,31 @@ To improve editor usability, all group blocks should include descriptive metadat
 ```
 
 This helps content editors identify and work with specific blocks more easily in the editor interface.
+
+### Image Usage Best Practices
+
+**Always use WordPress image blocks instead of HTML blocks for images:**
+
+❌ **Avoid HTML blocks for images:**
+```php
+<!-- wp:html -->
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/path/image.svg" alt="Description" width="20" height="20" />
+<!-- /wp:html -->
+```
+
+✅ **Use proper WordPress image blocks:**
+```php
+<!-- wp:image {"width":"20px","height":"20px","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/path/image.svg" alt="<?php esc_attr_e( 'Description', 'auctor' ); ?>" style="width:20px;height:20px"/></figure>
+<!-- /wp:image -->
+```
+
+**Benefits of using image blocks:**
+- Better accessibility with proper alt text handling
+- Consistent with WordPress block editor expectations
+- Easier for content editors to modify
+- Better SEO and semantic markup
+- Proper translation support with `esc_attr_e()`
+- Enhanced editor experience and block controls
+
+For decorative containers around images, use group blocks with proper styling instead of HTML divs.
