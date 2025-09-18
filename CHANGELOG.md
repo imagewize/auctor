@@ -5,6 +5,27 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.2] - 2025-09-18
+
+### Fixed
+- **Pattern Registration Cleanup**: Removed unnecessary manual pattern registration system
+  - Confirmed WordPress 6.0+ auto-registration works correctly with PHP functions in patterns
+  - Removed entire `register_block_patterns()` function from `functions.php`
+  - Fixed hardcoded local URLs in `services-feature-cards.php` (converted to relative paths)
+  - All patterns now auto-register like OllieWP approach without manual intervention
+
+### Changed
+- **Documentation Updates**: Updated pattern registration guidance based on testing
+  - Updated `CLAUDE.md` to reflect that manual registration is not required for PHP functions
+  - Updated `docs/PATTERNS-CLEANUP.md` with confirmed auto-registration behavior
+  - Corrected previous assumptions about WordPress pattern registration limitations
+
+### Technical Details
+- WordPress 6.0+ correctly executes `get_template_directory_uri()` and `esc_attr_e()` in auto-registered patterns
+- Removed 70+ lines of unnecessary pattern registration code
+- Simplified theme architecture by relying on WordPress core functionality
+- Testing confirmed patterns load correctly without manual registration
+
 ## [1.4.1] - 2025-09-18
 
 ### Added

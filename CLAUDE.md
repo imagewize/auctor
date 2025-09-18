@@ -138,7 +138,7 @@ To create new patterns, follow the existing pattern structure in `/patterns/` di
 
 ### Pattern Registration
 
-While WordPress 6.0+ auto-registers patterns in `/patterns/` directory, patterns containing PHP code (like `get_template_directory_uri()` for dynamic image paths) require manual registration in `functions.php` to ensure proper PHP execution. The theme includes a `register_block_patterns()` function for this purpose.
+WordPress 6.0+ auto-registers patterns in `/patterns/` directory and **correctly executes PHP code** in patterns, including functions like `get_template_directory_uri()` and `esc_attr_e()`. Manual registration is not required - all patterns auto-register automatically.
 
 ### Pattern Layout Structure
 
