@@ -17,16 +17,16 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Write better and publish beautifully with Auctor</h2>
+<h2 class="wp-block-heading has-text-align-center has-x-large-font-size">Design better and build beautifully with Auctor</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">Create engaging publications and editorial content with the WordPress Site Editor and the Auctor publishing theme. Perfect for independent writers and editorial teams.</p>
+<p class="has-text-align-center has-secondary-color has-text-color">Create engaging websites and professional digital experiences with the WordPress Site Editor and the Auctor design theme. Perfect for designers, developers, and creative teams.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Start Writing</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button">Start Building</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-secondary-button","borderColor":"tertiary"} -->

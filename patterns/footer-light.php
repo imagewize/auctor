@@ -17,7 +17,7 @@
 <div class="wp-block-column"><!-- wp:site-title {"level":0,"isLink":false,"style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"textColor":"main"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Easily create compelling publications and editorial content with the new WordPress Site Editor and the Auctor block theme. No coding skills required. Download for free today!</p>
+<p class="has-small-font-size">Easily create stunning websites and professional digital experiences with the new WordPress Site Editor and the Auctor design theme. No coding skills required. Download for free today!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","iconBackgroundColor":"main","iconBackgroundColorValue":"#14111f","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"flex","justifyContent":"left"}} -->

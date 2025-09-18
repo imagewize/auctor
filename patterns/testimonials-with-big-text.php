@@ -19,7 +19,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Create compelling publications and editorial content with the WordPress Site Editor. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">Perfect for writers and publishers.</mark></h2>
+<h2 class="wp-block-heading">Create stunning websites and professional digital experiences with the WordPress Site Editor. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">Perfect for designers and agencies.</mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"is-style-separator-dotted","backgroundColor":"main-accent"} -->
@@ -32,7 +32,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">“Publishing with Auctor has streamlined our entire editorial workflow.”</p>
+<p style="font-style:normal;font-weight:600">"Building with Auctor has streamlined our entire design workflow."</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"secondary","fontSize":"x-small"} -->
@@ -44,7 +44,7 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"metadata":{"name":"Testimonial"},"className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default has-border-color has-border-light-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph -->
-<p>I write for multiple publications and Auctor makes each one look unique and professional. The editorial layouts are perfect for long-form content!</p>
+<p>I design for multiple clients and Auctor makes each project look unique and professional. The pattern library is perfect for rapid development!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Cite"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -62,7 +62,7 @@
 
 <!-- wp:group {"metadata":{"name":"Testimonial"},"className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"}},"border":{"radius":"5px","width":"1px"}},"backgroundColor":"base","borderColor":"border-light","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default has-border-color has-border-light-border-color has-base-background-color has-background" style="border-width:1px;border-radius:5px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:paragraph -->
-<p>I publish weekly articles and Auctor has been a game changer. Choose a layout, add my story, hit publish. My readers love the clean design.</p>
+<p>I build client websites and Auctor has been a game changer. Choose a pattern, add content, hit publish. My clients love the professional design.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Cite"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

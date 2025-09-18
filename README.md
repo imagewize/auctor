@@ -1,8 +1,8 @@
-# Auctor — A WordPress Block Theme for Publishers
+# Auctor — A WordPress Block Theme for Designers & Developers
 
-Auctor is a modern WordPress block theme designed specifically for editors, publishers, and writers. With beautiful typography, elegant spacing, and specialized blocks for publishing articles with photography, Auctor provides everything you need to create stunning editorial content using WordPress's built-in block editor.
+Auctor is a modern WordPress block theme designed for designers, developers, and agencies to rapidly build professional websites. With beautiful typography, elegant spacing, and 70+ versatile patterns, Auctor provides everything you need to create stunning websites using WordPress's built-in block editor.
 
-Auctor features carefully crafted typefaces, optimized reading experiences, and specialized patterns for article layouts, making it the perfect choice for magazines, newspapers, blogs, and any publication-focused website.
+Auctor features carefully crafted typefaces, optimized design systems, and specialized patterns for business, agency, and portfolio layouts, making it the perfect choice for client projects, creative studios, and professional websites across all industries.
 
 ## Based on Moiraine and Thaiconomics
 
@@ -22,7 +22,7 @@ Auctor is based on a merger of the [Moiraine theme](https://github.com/imagewize
 
 ## Getting Started with Auctor
 
-Auctor is built for modern WordPress features and requires WordPress 6.0 or later. To get started, install the theme into your WordPress website by going to `Appearance → Themes → Add New`.
+Auctor is built for modern WordPress features and requires WordPress 6.0 or later. Perfect for agencies, freelancers, and developers building client sites. To get started, install the theme into your WordPress website by going to `Appearance → Themes → Add New`.
 
 ## Working with Block Themes
 
@@ -38,7 +38,7 @@ To edit your site via the site editor, go to `Appearance → Editor`. Here, you 
 
 ### Patterns
 
-Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, WordPress creators can now lean on patterns to quickly design their full website in the WordPress Site Editor.
+Patterns are pre-designed page elements that can be used to quickly design a page section or a full page layout. Instead of designing a page from scratch, designers and developers can now lean on Auctor's 70+ professional patterns to rapidly build client websites in the WordPress Site Editor.
 
 You can access Auctor's patterns via the block inserter on posts, pages, or in the site editor. 
 

@@ -5,6 +5,63 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2025-09-18
+
+### Added
+- **Multi-Purpose Transformation**: Transformed Auctor from publishing-focused to versatile design tool
+  - Added comprehensive multi-purpose positioning strategy in `docs/MULTIPURPOSE.md`
+  - Documented complete transformation plan with implementation phases
+  - Added detailed content strategy guidelines for broad appeal
+
+- **Enhanced Documentation**: Complete documentation overhaul for multi-purpose positioning
+  - Updated README.md with designer/developer/agency focus
+  - Updated readme.txt with business, agency, portfolio, professional tags
+  - Updated style.css theme description for multi-purpose appeal
+  - Updated CLAUDE.md development instructions for new theme focus
+
+### Changed
+- **Pattern Content Updates**: Comprehensive content transformation across 14+ patterns
+  - **Hero Patterns**: Updated 4 hero patterns from "Publishing Reimagined" to "Design Reimagined"
+    - Changed headlines to focus on website building and digital experiences
+    - Updated descriptions to target designers, developers, and agencies
+    - Updated button text to "Get Started", "View Our Work", "Start Building"
+
+  - **Team Sections**: Diversified professional roles and descriptions
+    - Updated team member roles: Creative Director, Frontend Developer, UX Designer
+    - Changed team description to focus on client work and digital experiences
+
+  - **Call-to-Action Updates**: Modernized CTA language for broader appeal
+    - Updated buttons: "Start Your Project", "Get Started", "View Our Work"
+    - Changed focus from publishing actions to design/development actions
+    - Updated footer CTAs to target broader audience
+
+  - **Feature Content**: Enhanced feature descriptions for multi-purpose use
+    - Updated features to emphasize 70+ patterns and professional templates
+    - Changed focus from publishing to business/agency/portfolio sites
+    - Updated large text sections to target digital experiences
+
+  - **Testimonials**: Updated testimonials for client/agency focus
+    - Updated testimonials to focus on client work and design workflow
+    - Changed content from publishing to website building and pattern library
+    - Updated quotes to emphasize professional design and client satisfaction
+
+- **Theme Positioning**: Complete repositioning from publisher-specific to multi-purpose
+  - Changed target audience from "writers, editors, publishers" to "designers, developers, agencies"
+  - Updated theme description to emphasize rapid website development
+  - Enhanced feature messaging for professional client work
+
+### Enhanced
+- **Pattern Categories**: Improved pattern organization for diverse use cases
+  - Updated pattern descriptions to include business and agency layouts
+  - Enhanced pattern categories for better multi-purpose discovery
+  - Maintained publishing heritage while expanding scope
+
+### Technical Details
+- All pattern content updates maintain existing design structure
+- Documentation updates ensure consistent multi-purpose messaging
+- Theme transformation preserves backward compatibility
+- Enhanced developer guidance for multi-purpose theme usage
+
 ## [1.3.0] - 2025-09-18
 
 ### Added

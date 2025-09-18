@@ -18,7 +18,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.3"}},"fontSize":"large"} -->
-<p class="has-large-font-size" style="font-style:normal;font-weight:600;line-height:1.3">Easily create compelling publications and editorial content with the new WordPress Site Editor and the Auctor block theme. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></p>
+<p class="has-large-font-size" style="font-style:normal;font-weight:600;line-height:1.3">Easily create stunning websites and professional digital experiences with the new WordPress Site Editor and the Auctor design theme. <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">No coding skills required.</mark></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

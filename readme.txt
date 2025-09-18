@@ -1,20 +1,40 @@
 === Auctor WordPress Block Theme ===
 Contributors: mmcalister, patrickposner, rhand
-Tags: blog, publishing, editorial, writers, magazines, newspapers, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
+Tags: business, agency, portfolio, professional, corporate, creative, multipurpose, blog, publishing, editorial, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 6.0
 Tested up to: 6.7.1
 Requires PHP: 7.3
-Stable tag: 1.1.2
+Stable tag: 1.4.0
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Auctor is a modern WordPress block theme designed specifically for editors, publishers, and writers. With beautiful typography, elegant spacing, and specialized blocks for publishing articles with photography, Auctor provides everything you need to create stunning editorial content using WordPress's built-in block editor.
+Auctor is a modern WordPress block theme designed for designers, developers, and agencies to rapidly build professional websites. With beautiful typography, elegant spacing, and 70+ versatile patterns, Auctor provides everything you need to create stunning websites using WordPress's built-in block editor.
 
-Auctor features carefully crafted typefaces, optimized reading experiences, and specialized patterns for article layouts, making it the perfect choice for magazines, newspapers, blogs, and any publication-focused website. The theme includes 70+ block patterns, 5 style variations, and comprehensive full site editing support.
+Auctor features carefully crafted typefaces, optimized design systems, and specialized patterns for business, agency, and portfolio layouts, making it the perfect choice for client projects, creative studios, and professional websites across all industries. The theme includes 70+ block patterns, 5 style variations, and comprehensive full site editing support.
 
 == Changelog ==
+
+= 1.4.0 - 09/18/25 =
+* Major transformation: Repositioned Auctor from publishing-focused to multi-purpose design tool
+* Updated all hero patterns from "Publishing Reimagined" to "Design Reimagined" with designer/developer focus
+* Comprehensive pattern content updates across 14+ patterns targeting agencies, freelancers, and developers
+* Updated team member roles to Creative Director, Frontend Developer, and UX Designer
+* Enhanced call-to-action buttons with "Get Started", "View Our Work", "Start Your Project"
+* Updated testimonials to focus on client work, design workflows, and pattern library benefits
+* Complete documentation overhaul: README.md, style.css, and CLAUDE.md updated for multi-purpose positioning
+* Added business, agency, portfolio, professional, corporate, creative, multipurpose tags
+* Created comprehensive transformation strategy documentation in docs/MULTIPURPOSE.md
+* Enhanced feature descriptions to emphasize rapid website development for client projects
+
+= 1.3.0 - 09/18/25 =
+* Added comprehensive benefits and services patterns for enhanced content creation
+* Added benefits-list-dark.php and benefits-list-light.php with professional styling
+* Added services-feature-cards.php for service displays and enhanced SVG icon library
+* Extended color palette with dark-teal and ocean-blue for professional design flexibility
+* Enhanced pattern registration system and documentation for WordPress block development
+* Improved automatic pattern handling for dynamic content with proper metadata names
 
 = 1.1.2 - 09/17/25 =
 * Fixed branding consistency by removing remaining Thaiconomics and Moiraine references from JavaScript files

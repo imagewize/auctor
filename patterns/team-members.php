@@ -22,7 +22,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">We're a small team of diverse creators with the aim of creating the best possible WordPress products for you. Join our team today!</p>
+<p class="has-text-align-center">We're a small team of diverse professionals with the aim of creating exceptional digital experiences for our clients. Let's work together!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -35,7 +35,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"tertiary","fontSize":"small"} -->
-<p class="has-text-align-center has-tertiary-color has-text-color has-small-font-size">Product Designer</p>
+<p class="has-text-align-center has-tertiary-color has-text-color has-small-font-size">Creative Director</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -57,7 +57,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"tertiary","fontSize":"small"} -->
-<p class="has-text-align-center has-tertiary-color has-text-color has-small-font-size">Product Designer</p>
+<p class="has-text-align-center has-tertiary-color has-text-color has-small-font-size">Frontend Developer</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -79,7 +79,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"tertiary","fontSize":"small"} -->
-<p class="has-text-align-center has-tertiary-color has-text-color has-small-font-size">Product Designer</p>
+<p class="has-text-align-center has-tertiary-color has-text-color has-small-font-size">UX Designer</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

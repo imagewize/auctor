@@ -16,25 +16,25 @@
 <div class="wp-block-group alignfull has-base-color has-text-color" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xxx-large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--xxx-large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"metadata":{"name":"Text and Buttons"}} -->
 <div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Titles"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Publishing Reimagined</p>
+<p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size" style="font-style:normal;font-weight:500">Design Reimagined</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","className":"has-secondary-font-family","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-secondary-font-family has-x-large-font-size">Publish with confidence and style using Auctor</h2>
+<h2 class="wp-block-heading has-text-align-center has-secondary-font-family has-x-large-font-size">Build with confidence and style using Auctor</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main-accent"} -->
-<p class="has-text-align-center has-main-accent-color has-text-color">Create stunning editorial layouts and professional publications with the WordPress Site Editor and the Auctor block theme. Perfect for writers, editors, and publishers.</p>
+<p class="has-text-align-center has-main-accent-color has-text-color">Create stunning websites and professional digital experiences with the WordPress Site Editor and the Auctor design theme. Perfect for designers, developers, and agencies.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-button-brand"} -->
-<div class="wp-block-button is-style-button-brand"><a class="wp-block-button__link wp-element-button">Start Publishing</a></div>
+<div class="wp-block-button is-style-button-brand"><a class="wp-block-button__link wp-element-button">Get Started</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-button-light"} -->
-<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link wp-element-button">Explore Layouts</a></div>
+<div class="wp-block-button is-style-button-light"><a class="wp-block-button__link wp-element-button">View Our Work</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
