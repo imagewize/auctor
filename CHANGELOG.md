@@ -5,6 +5,56 @@ All notable changes to the Auctor theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.4] - 2025-09-18
+
+### Fixed
+- **Marketing Pattern Header/Footer**: Removed header and footer template parts from `page-marketing.php` pattern
+  - Fixed issue where pattern couldn't be inserted into existing pages due to conflicting header/footer elements
+  - Pattern now contains only content sections: hero, blog posts, testimonials, features, and call-to-action elements
+  - Improves pattern usability for insertion into any page without layout conflicts
+
+### Technical Details
+- Marketing pattern now works properly when inserted as a standalone pattern block
+- Removed template part dependencies that were causing insertion failures
+- Pattern maintains all original content sections while eliminating layout conflicts
+
+## [1.4.3] - 2025-09-18
+
+### Added
+- **Comprehensive Template Pattern Library**: Enhanced layout flexibility with 15+ new template patterns
+  - Added `template-page-centered.php`, `template-page-full.php`, `template-page-wide.php` for flexible page layouts
+  - Added `template-page-left-sidebar.php`, `template-page-right-sidebar.php` for sidebar-enabled page layouts
+  - Added `template-post-centered.php`, `template-post-wide.php` for versatile single post layouts
+  - Added `template-post-left-sidebar.php`, `template-post-right-sidebar.php` for sidebar-enabled post layouts
+  - Added `template-index-grid.php`, `template-index-list.php` for homepage and archive page variations
+  - Added `template-page-404.php` for custom 404 error page styling
+  - Added `template-page-archive.php`, `template-page-search.php` for specialized archive and search layouts
+
+- **Marketing Homepage Pattern**: Complete business-ready homepage template
+  - Added `page-marketing.php` with comprehensive marketing sections
+  - Includes hero section, features, testimonials, blog integration, and call-to-action elements
+  - Designed for agencies, freelancers, and business websites requiring immediate professional presence
+
+### Enhanced
+- **Template Architecture Simplification**: Streamlined template organization and structure
+  - Simplified `templates/index.html` to use new `template-index-grid` pattern for cleaner architecture
+  - Enhanced template organization with consistent naming conventions (`template-*` prefix)
+  - All template patterns include proper `Template Types` metadata for WordPress editor integration
+  - Improved pattern categorization with `auctor/pages` and `auctor/posts` categories
+
+- **Editor Experience Enhancement**: Improved content management and customization workflow
+  - All new template patterns include descriptive titles, keywords, and viewport width settings
+  - Enhanced metadata organization for better pattern discovery in WordPress editor
+  - Template patterns follow FSE best practices with proper layout constraints and responsive design
+  - Consistent spacing and layout structure across all new template patterns
+
+### Technical Details
+- Template patterns support WordPress 6.0+ auto-registration without manual intervention
+- All patterns include proper `Inserter: false` setting for template-specific patterns (non-insertable content)
+- Marketing homepage pattern includes `Inserter: true` for user customization and reuse
+- Enhanced theme flexibility with multiple layout options for pages, posts, and archive views
+- Template patterns maintain backward compatibility with existing theme installations
+
 ## [1.4.2] - 2025-09-18
 
 ### Fixed
